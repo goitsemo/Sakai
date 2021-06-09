@@ -1,0 +1,152 @@
+[
+{
+  "model": "courses.subject",
+  "pk": 1,
+  "fields": {
+    "title": "Computer Networks",
+    "slug": "computer-networks"
+  }
+},
+{
+  "model": "courses.subject",
+  "pk": 2,
+  "fields": {
+    "title": "Operating Systems",
+    "slug": "operating-systems"
+  }
+},
+{
+  "model": "courses.subject",
+  "pk": 3,
+  "fields": {
+    "title": "Computer Programming",
+    "slug": "computer-programming"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 1,
+  "fields": {
+    "owner": 2,
+    "subject": 1,
+    "title": "Networks+ Guide to Networks",
+    "slug": "networks-guide-networks",
+    "overview": "Networking",
+    "created": "2021-06-09T10:56:58.068Z"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 2,
+  "fields": {
+    "owner": 3,
+    "subject": 2,
+    "title": "Operarating System Concepts",
+    "slug": "operarating-system-concepts",
+    "overview": "Instructor's manual to accompany operating system concepts, 7th Edition",
+    "created": "2021-06-09T11:06:18.598Z"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 3,
+  "fields": {
+    "owner": 4,
+    "subject": 3,
+    "title": "Python Programming",
+    "slug": "python-programming",
+    "overview": "Introduction to Python Programming",
+    "created": "2021-06-09T11:13:28.141Z"
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 1,
+  "fields": {
+    "course": 1,
+    "title": "Introduction to Networks",
+    "description": "Network Models, Client-server applications, Hardware, OSI Model",
+    "order": 1
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 2,
+  "fields": {
+    "course": 1,
+    "title": "Network Infrastructure",
+    "description": "Cabling, Documentation, Change Management",
+    "order": 2
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 3,
+  "fields": {
+    "course": 1,
+    "title": "Addressing",
+    "description": "Domain Name Systems,",
+    "order": 3
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 4,
+  "fields": {
+    "course": 2,
+    "title": "Introduction",
+    "description": "Introduction to operating systems",
+    "order": 1
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 5,
+  "fields": {
+    "course": 2,
+    "title": "Operating system structures",
+    "description": "Structures of Opearing Systems",
+    "order": 2
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 6,
+  "fields": {
+    "course": 2,
+    "title": "Processes and Threats",
+    "description": "Processes and Threats",
+    "order": 3
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 7,
+  "fields": {
+    "course": 3,
+    "title": "Python and its Features",
+    "description": "Installation, Data Types, Elements, Comments and Printing",
+    "order": 1
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 8,
+  "fields": {
+    "course": 3,
+    "title": "Functions and Modules",
+    "description": "Classes, Inheritance, Descriptors, Operator Overloadding",
+    "order": 2
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 9,
+  "fields": {
+    "course": 3,
+    "title": "PyQt",
+    "description": "Visual Programming, GUI",
+    "order": 3
+  }
+}
+]
